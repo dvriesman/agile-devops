@@ -1,5 +1,8 @@
 # Introdução ao Vagrant
 
+## Acesso ao usuário normal ao libvirt
+sudo usermod -a -G libvirt aluno
+
 ## Instalar plugin do KVM
 
 ```
