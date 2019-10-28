@@ -1,4 +1,4 @@
 # Slack Channel
 
-[SenaiAgileDevOps](https://github.com/user/repo/blob/branch/other_file.md)
+[SenaiAgileDevOps](https://join.slack.com/t/senaiagiledevops/shared_invite/enQtODExOTMzMTI4MjQwLWYzZjc4YzZhMTM4ZDg3NzgyN2ZiNDZkNzc0NzRlODE0OWZjNDM1YmQyYWY2MmE0M2ExMWFhNmM2NGFiMTA0Mzg)
 
