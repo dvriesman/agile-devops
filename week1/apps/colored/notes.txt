@@ -1,4 +1,0 @@
-
-1) Expor a aplicação na porta 8087
-2) A aplicação deverá ser exibir Hello <seu nome> com uma cor de fundo amarela. (yellow).
-
