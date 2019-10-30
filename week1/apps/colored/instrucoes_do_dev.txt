@@ -1,0 +1,13 @@
+
+1) Expor a aplicação na porta 8087
+2) A aplicação deverá ser exibir Hello <seu nome> com uma cor de fundo amarela. (yellow).
+3) A aplicação roda nativamente na porta 9090
+4) Na minha máquina de desenvolvimento eu tenho o python-pip python-dev build-essential instalado
+5) Ahhh minha aplicação roda com o framework Flask, mas eu coloquei tudo no requirements.txt
+Você pode usar o pip para instalar.. algo do tipo: pip install -r requirements.txt
+6) Para rodar a aplicação é só fazer um python color.py 
+7) a aplicação espera 2 variáveis, APP_NAME e APP_COLOR
+8) Qualquer dúvida, fale com o Pedro, pois estou saindo de férias, pediram pra por em produção hoje mesmo, mesmo com alguns bugs conhecidos.
+
+
+ 
