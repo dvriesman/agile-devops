@@ -1,0 +1,35 @@
+apiVersion: apps/v1beta2
+kind: DaemonSet
+metadata:
+  labels:
+    namespace: elastic-daemonset
+    name: elastic-tunning-daemonset
+  name: elastic-tunning-daemonset
+spec:
+  selector:
+    matchLabels:
+      name: elastic-tunning-daemonset
+  template:
+    metadata:
+      labels:
+        name: elastic-tunning-daemonset
+    spec:
+      containers:
+      - env:
+        - name: STARTUP_SCRIPT
+          value: |
+            #! /bin/bash
+            sysctl -w vm.max_map_count=262144
+            echo "done"
+        image: gcr.io/google-containers/startup-script:v1
+        imagePullPolicy: IfNotPresent
+        name: elastic-tunning-daemonset
+        resources: {}
+        securityContext:
+          privileged: true
+          procMount: Default
+      hostPID: true
+      restartPolicy: Always
+      securityContext: {}
+  updateStrategy:
+    type: OnDelete

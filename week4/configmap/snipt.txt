@@ -1,0 +1,4 @@
+envFrom:
+  - configMapRef:
+    name: minhasconfigs
+

@@ -1,0 +1,8 @@
+1) COLORED APP NO K8S
+=====================
+CRIAR DEPLOYMENT
+
+2) ESCALAR PARA 2 RÉPLICAS
+===========================
+
+

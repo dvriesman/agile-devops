@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nginx-denny
+  labels:
+    app: nginx-denny
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nginx-denny
+    spec:
+      containers:
+      - name: nginx-denny
+        image: nginx
+        ports:
+        - name: nginx-denny-port
+          containerPort: 80
+          protocol: TCP

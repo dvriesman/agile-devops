@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mysql-denny
+  labels:
+    app: mysql-denny-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mysql-denny
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:5.6
+        env:
+         - name: MYSQL_ROOT_PASSWORD
+           value: alfabeta
+        ports:
+        - name: mysql-port
+          containerPort: 3306
+          protocol: TCP
