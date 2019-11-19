@@ -1,0 +1,13 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: xapi
+spec:
+  host: xapi
+  subsets:
+    - name: man
+      labels:
+        version: v1
+    - name: girl
+      labels:
+        version: v2
