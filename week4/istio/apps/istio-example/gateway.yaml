@@ -6,9 +6,15 @@ spec:
   selector:
     istio: ingressgateway
   servers:
-    - port:
-        number: 80
-        name: http
-        protocol: HTTP
-      hosts:
-        - demo-istio.senai.com.br
+  - hosts:
+    - agile-devops.club
+    port:
+      name: https
+      number: 443
+      protocol: HTTPS
+    tls:
+      credentialName: ingress-cert
+      mode: SIMPLE
+      privateKey: sds
+      serverCertificate: sds
+
