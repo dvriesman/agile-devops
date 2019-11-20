@@ -1,0 +1,42 @@
+# Source: demoapi/templates/deployment.yaml
+#apiVersion: apps/v1beta2
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demoapi2
+  labels:
+    app: demoapi
+    chart: demoapi-0.1.0
+    release: demoapi2
+    heritage: Tiller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demoapi
+      release: demoapi2
+  template:
+    metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
+      labels:
+        app: demoapi
+        release: demoapi2
+        version: v2
+    spec:
+      containers:
+        - name: demoapi
+          image: "dvriesman/demoapi:latest"
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 9090
+              protocol: TCP
+          env:
+            - name: "APP_NAME"
+              value: alfa
+            - name: "APP_COLOR"
+              value: green
+          resources:
+            {}
+

@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "demofront.fullname" . }}
+  labels:
+    app: {{ template "demofront.name" . }}
+    chart: {{ template "demofront.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "demofront.name" . }}
+    release: {{ .Release.Name }}

@@ -1,0 +1,28 @@
+apiVersion: "config.istio.io/v1alpha2"
+kind: handler
+metadata:
+  name: deny-handler
+spec:
+  compiledAdapter: denier
+  params:
+    status:
+      code: 7
+      message: Not allowed
+---
+apiVersion: "config.istio.io/v1alpha2"
+kind: instance
+metadata:
+  name: deny-request
+spec:
+  compiledTemplate: checknothing
+---
+apiVersion: "config.istio.io/v1alpha2"
+kind: rule
+metadata:
+  name: deny-rule
+spec:
+  match: destination.labels["app"] == "demoapi" && destination.labels["version"]=="v1" && source.labels["app"] == "demofront"
+  actions:
+  - handler: deny-handler
+    instances: [ deny-request ]
+

@@ -1,0 +1,20 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: demoapi
+spec:
+  hosts:
+  - demoapi
+  http:
+  - match:
+    - headers:
+        user:
+          exact: denny 
+    route:
+    - destination:
+        host: demoapi
+        subset: v1
+  - route:
+    - destination:
+        host: demoapi
+        subset: v2
