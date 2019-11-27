@@ -1,0 +1,45 @@
+rem ษอcfออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+rem บ               FLCS MACRO DEFINITION FILE TEMPLATE                     บ
+rem บ Macro Definition File For:Extreme Assault by Blue Byte (C) 1997______ บ
+rem บ                                                                       บ
+rem ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+
+~Views
+~
+Upward = 7
+Downward = 1
+Forward = 8
+Backward = 2
+Left = 4
+Right = 6
+DropCamera = 5
+View_In/Out = 0
+VirCockpit = 9
+SetCamera = ,
+Zoom_In = +
+Zoom_Out = -
+Hud_ON/OFF = 3
+
+
+~
+~Weapons
+~
+Rocket = ENT
+Smartbomb = SPC
+Thunderbolt = t
+SelectEnemy1 = TAB
+SelectEnemy2 = q
+Zoom_Radar = r
+ChangeWeapon = BSP
+~Other Commands
+~
+NextMission = F12
+Pause = p
+Quit = ESC
+Switch_Res = F5
+
+~Movements
+~
+Slide_left =  x
+Slide_right = c

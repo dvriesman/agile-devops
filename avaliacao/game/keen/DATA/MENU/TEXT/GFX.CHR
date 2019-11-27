@@ -1,0 +1,464 @@
+[0]{MAIN MENU}
+[1]{New Game}
+[2]{Load Game}
+[3]{Change Pilot}
+[4]{Options}
+[5]{Top Ten Scores}
+[6]{Network Play}
+[7]{Credits}
+[8]{Quit Game}
+
+
+[10]{ADJUST CONTROLS}
+
+[11]{Control type:}
+[12]{Normal}
+[13]{Pilot}
+[14]{Arcade}
+[15]{Customize}
+
+[16]{BACK}
+
+[17]{Function}
+[18]{Keyboard}
+[19]{Joystick}
+
+[20]{Forward}
+[21]{Backward}
+[22]{Turn left}
+[23]{Turn right}
+[24]{Up}
+[25]{Down}
+[26]{Drift}
+[27]{Drift left}
+[28]{Drift right}
+[29]{Fire}
+[30]{Change weapons}
+[31]{Rocket}
+[32]{Smart Bomb}
+[33]{Thunderbolt}
+[34]{Lock Target No. 1}
+[291]{Lock Target No. 2}
+[35]{Zoom radar}
+[36]{Cockpit/External}
+[37]{Virt. Cockpit on/off}
+[38]{HUD on/off}
+[39]{Forward view}
+[40]{Backward view}
+[41]{Left view}
+[42]{Right view}
+[43]{Upward view}
+[44]{Downward view}
+[45]{Stationary camera}
+[46]{Adjust outer camera}
+[47]{Zoom in}
+[48]{Zoom out}
+[66]{Reset view}
+[49]{Set camera position}
+
+[50]{}
+[51]{}
+
+[52]{RESET TO DEFAULT}
+
+[53]{ARE YOU SURE?}
+
+[54]{QUIT PROGRAM?}
+
+[55]{OPTIONS MENU}
+[56]{Sound Setup}
+[57]{Resolution Setup}
+[58]{Graphic Detail Level}
+[59]{Controls Setup}
+
+[60]{CONTROLS SETUP}
+[61]{Joystick type:}
+[62]{       Rudder:}
+[63]{        Mouse:}
+[64]{Calibrate joystick}
+[65]{Choose and adjust controls}
+
+[67]{None}
+[68]{2-button}
+[69]{4-button}
+[70]{Thrustmaster}
+
+[71]{On}
+[72]{Off}
+
+[73]{- Calibrate joystick -}
+[74]{Move joystick into the forward left position}
+[75]{Press joystick button}
+
+[76]{- Ok -}
+
+[77]{Move joystick into the right bottom position}
+[78]{Center joystick}
+
+[79]{Move rudder to the right}
+[80]{Center rudder}
+[81]{Move rudder to the left}
+
+[82]{Set throttle control to maximum}
+[83]{Set throttle to minimum}
+[84]{Center throttle}
+
+[85]{JOYSTICK NOT INSTALLED!}
+
+[86]{SOUND SETUP}
+[87]{      Computer voice:}
+[88]{     Music selection:}
+[89]{         MIDI volume:}
+[90]{Sound effects volume:}
+[91]{   Number of effects:}
+
+[92]{German}
+[93]{English}
+
+[94]{CD audio}
+[95]{MIDI}
+[96]{No music}
+
+[97]{CD NOT FOUND!}
+
+[98]{LOADING...}
+
+[99]{YES}
+
+[100]{NO}
+
+[101]{Operation area 1}
+[102]{Operation area 2}
+[103]{Operation area 3}
+[104]{Operation area 4}
+[105]{Operation area 5}
+[106]{Operation area 6}
+
+[107]{CHOOSE OPERATION AREA}
+
+[108]{RESOLUTION}
+
+[109]{LowRes}
+[110]{256 colors coarse}
+[111]{256 colors fine Cinemascope}
+[112]{256 colors fine}
+[113]{Half-line HiColor Cinemascope}
+[114]{Half-line HiColor}
+[115]{HiColor Cinemascope}
+[116]{HiColor emulated}
+[117]{HiColor}
+[118]{HiColor with linear frame buffer}
+
+[119]{HiRes}
+[120]{256 colors}
+[121]{HiColor}
+[122]{HiColor with linear frame buffer}
+
+[123]{GRAPHIC DETAIL}
+[124]{      Viewing range:}
+[125]{     Ground objects:}
+[126]{                Fog:}
+[127]{Low}
+[128]{Medium}
+[129]{High}
+[132]{Transparent effects:}
+
+[130]{DELETE PILOT INFORMATION?}
+
+[131]{Continue Game}
+
+[133]{X-axis 1}
+[134]{Y-axis 1}
+[135]{Y-1 Reverse}
+[136]{X-axis 2}
+[137]{Y-axis 2}
+[138]{Y-2 Reverse}
+[139]{X-axis}
+[140]{Y-axis}
+[141]{Y-Reverse}
+
+[142]{    MMX˘ Technology:}
+
+[143]{CHOOSE OPERATION AREA}
+[144]{Operation area 1 - The Lost Valley}
+[145]{Operation area 2 - Trapped Beneath the Earth}
+[146]{Operation area 3 - The Volcanic Island}
+[147]{Operation area 4 - Factory of Hostility}
+[148]{Operation area 5 - The Plateau}
+[149]{Operation area 6 - The Final Chapter}
+
+[150]{LOAD MISSION}
+[151]{Mission 1}
+[152]{Mission 2}
+[153]{Mission 3}
+[154]{Mission 4}
+[155]{Mission 5}
+[156]{Mission 6}
+[157]{Mission 7}
+[158]{Mission 8}
+[159]{Mission 9}
+[160]{Mission 10}
+[161]{Mission 11}
+[162]{Mission 12}
+[163]{Mission 13}
+[164]{Mission 14}
+[165]{Mission 15}
+[166]{Mission 16}
+
+[167]{Resolution:}
+
+[168]{HiColor MMX˘ Technology}
+
+[169]{            Briefing:}
+
+[170]{Text}
+[171]{Text and voice}
+[172]{Voice}
+
+[180]{Shield}
+[181]{Points}
+[182]{Press any key...}
+[183]{CHOOSE PILOT}
+
+[184]{Kevin "Hotshot" Rodgers}
+[185]{Sally "Vampire" Brown}
+[186]{Pat "Piecemaker" Reiniz}
+[187]{Mike "Viper" Pointer}
+
+[188]{Easy}
+[189]{Normal}
+[190]{Difficult}
+[191]{Extreme}
+
+[260]{TAB}
+[261]{INSERT}
+[262]{DELETE}
+[263]{BACK SPACE}
+[264]{HOME}
+[265]{END}
+[266]{PAGE UP}
+[267]{PAGE DOWN}
+[268]{LEFT}
+[269]{UP}
+[270]{RIGHT}
+[271]{DOWN}
+[272]{ENTER}
+[273]{SPACE}
+[274]{LSHIFT}
+[275]{RSHIFT}
+[276]{CTRL}
+[277]{ALT}
+[278]{Button 1}
+[279]{Button 2}
+[280]{Button 3}
+[281]{Button 4}
+[282]{LMouse}
+[283]{RMouse}
+!!! ATTENTION! DO NOT CHANGE THE MESSAGES #284 - #287,#289  !!!
+[284]{? }
+[285]{? }
+[286]{? }
+[287]{-}
+[288]{<UNDEFINED>}
+[289]{ }
+
+[290]{And lots more...}
+
+
+
+
+[296]{of}
+
+
+
+
+
+
+[192]{Minutes}
+[193]{DONE}
+[194]{-no game available-}
+[196]{Tank}
+[197]{Helicopter}
+[198]{Unlimited}
+[200]{NETWORK PLAY}
+[201]{Local Area Network (IPX)}
+[202]{T.E.Network (TEN)}
+
+[203]{IPX NETWORK OPTIONS}
+[204]{Create new game}
+[205]{Join a game}
+
+[206]{PLAYERS AND TEAMS}
+!!! Attention! Do not change the length of the messages #207 - #219 !!!
+[207]{                                                                }
+[208]{                                                                }
+[209]{                                                                }
+[210]{                                                                }
+[211]{                                                                }
+[212]{                                                                }
+[213]{                                                                }
+[214]{                                                                }
+[215]{                                                                }
+[216]{                                                                }
+[217]{                                                                }
+[218]{                                                                }
+[219]{                                                                }
+
+[225]{STARTING TEN...}
+[226]{AVAILABLE TERRAINS}
+[227]{AVAILABLE GAMES}
+[228]{RESULTS}
+[229]{CONTINUE}
+
+!!! Attention! Do not change the length of the messages #230 - #241 !!!
+[230]{         Radar}
+[231]{     Your name}
+[232]{     Game name}
+[233]{    Created by}
+[234]{No. of players}
+[235]{  No. of teams}
+[236]{Game objective}
+[237]{    Your color}
+[238]{       Terrain}
+[239]{       Vehicle}
+
+
+[243]{STARTING GAME...}
+[244]{Blue}
+[245]{Red}
+[246]{Yellow}
+[247]{Green}
+[248]{Team}
+[250]{Kills}
+[251]{Defeats}
+[252]{START GAME}
+[253]{TERMINATE GAME}
+[254]{GAME OPTIONS}
+[255]{         Voice}
+[256]{Male}
+[257]{Female}
+[258]{        Extras}
+[259]{None}
+[292]{No Energy}
+[293]{All}
+[294]{Training}
+[295]{     Collision}
+
+
+[300]{CREDITS AND ACKNOWLEDGEMENTS}
+[301]{ }
+[302]{Producer...................Thomas Hertzler}
+[303]{Project Manager............Thomas Friedmann}
+[304]{ }
+[305]{ }
+[306]{Concept and Design.........The Extreme-Team}
+[307]{Missions Concept...........Erik Simon}
+[308]{Missions...................Thomas Friedmann}
+[309]{                           Marko Giertolla}
+[310]{                           Thorsten Knop}
+[311]{                           Erik Simon}
+[312]{ }
+[313]{ }
+[314]{Program....................Rainer Reber}
+[315]{3-D Engine.................Christian Jungen}
+[316]{Special Effects............Christian Jungen}
+[317]{                           Rainer Reber}
+[318]{Opponent Logic.............Steffen Bendel}
+[319]{                           Rainer Reber}
+[320]{Network Program............Lars Hammer}
+[321]{                           Rainer Reber}
+[322]{Editor.....................Rainer Reber}
+[323]{Additional Program.........Jurie Horneman}
+[324]{MMX˘ Technology............Jîrg Plewe}
+[325]{ }
+[326]{ }
+[327]{Level Design, 3-D Graphics.Martin Fiedler}
+[328]{                           Marko Giertolla}
+[329]{                           Christian Siecora}
+[330]{                           Janos Toth}
+[331]{                           Christoph Werner}
+[332]{Additional Graphics........Thorsten Knop}
+[333]{                           Christian Siecora}
+[334]{ }
+[335]{ }
+[336]{Soundtrack produced by.....Chris HÅlsbeck}
+[337]{                           Fabian Del Priore}
+[338]{Sound Effects..............Haiko Ruttmann}
+[339]{Speech Recording...........Haiko Ruttmann}
+[340]{Recording Manager..........Wolfgang Walk}
+[341]{Voices.....................Eric Hansen}
+[342]{                           Jonathan Failla}
+[343]{                           Christina Kellner}
+[344]{                           Thomas Krause}
+[345]{                           Marty Sander}
+[346]{ }
+[347]{ }
+[348]{Manual and Layout..........Wolfgang Walk}
+[349]{Story......................Thomas Friedmann}
+[350]{Localization...............Daniel Schmidt}
+[351]{ }
+[352]{ }
+[353]{Best Boy, Special Support..Thomas HÑuser}
+[354]{ }
+[355]{ }
+[356]{Fire engine................Uwe Meier}
+[357]{ }
+[358]{ }
+[359]{ }
+[360]{ }
+[361]{          SPECIAL THANKS TO...}
+[362]{ }
+[363]{                 Esther}
+[364]{              Stefan Maton}
+[365]{             Michael Dreher}
+[366]{            Marcus Pukropski}
+[367]{Christoph Holowaty (for the Horrorwaty...)}
+[368]{           Peter Steinlechner,}
+[369]{   Michael Galuschka (for the Jacket...)}
+[370]{       Pizzeria "Da Vanna e Piero"}
+[371]{            Stefan Schappacher}
+[372]{                Steve Vai}
+[373]{                Jack Pot}
+[374]{    Oliver Blanck and the Saftschrank}
+[375]{            Armino Gesserti}
+[376]{       The "Virtua Cop"-Designers}
+[377]{              Thomas Holz}
+[378]{              Hardy Gude}
+[379]{              Jens Bormke}
+[380]{        Ilse Katharina Giertolla}
+[381]{                 Rudi}
+[382]{  The KIWI's and Tequila's from Hamburg}
+
+[390]{Move Hat-Switch to the left}
+[391]{Move Hat-Switch to the right}
+[392]{Move Hat-Switch forward}
+[393]{Move Hat-Switch backward}
+[394]{Center Hat-Switch}
+[395]{TOP TEN}
+
+[400]{X-axis 1}
+[401]{Y-axis 1}
+[402]{Y-1 reverse}
+[403]{X-axis 2}
+[404]{Y-axis 2}
+[405]{Y-2 reverse}
+
+[406]{Hut left}
+[407]{Hut right}
+[408]{Hut up}
+[409]{Hut down}
+
+[410]{X-axis}
+[411]{Y-axis}
+[412]{Y reverse}
+
+[413]{TOP TEN}
+[414]{NAME}
+[415]{SCORE}
+[416]{DIFF. LEVEL}
+
+[417]{CANNOT FIND CD!}
+[418]{CANNOT LOAD GAME!}
+[419]{CANNOT SAVE TOP TEN!}
+[420]{TOP TEN FILE IS DAMAGED!}
+

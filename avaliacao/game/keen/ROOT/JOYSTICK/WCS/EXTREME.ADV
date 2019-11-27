@@ -1,0 +1,35 @@
+
+Mdef EXTREME
+
+BTN 1 /U /N DropCamera
+      /M /N Enemy2
+      /D SetCamera
+
+BTN 2 /N Smartbomb
+
+BTN 3 /N Thunderbolt
+
+BTN 4 /U /N Yes
+      /M /N IN/OUT
+      /D /N Pause
+
+BTN 5 /U /N No
+      /M /N VirCockpit
+      /D /N nextMission
+
+BTN 6 /U /N RadZoom
+      /M /N Hud_ON/OFF
+      /D /N Quit
+
+
+REM ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+REM บ NOTE: THIS FILE IS TO BE USED WITH THE NEW CHIP AND MICROCODE FOR บ
+REM บ THE MARK II WCS ONLY.  IF YOU DO NOT HAVE THIS CHIP, THEN CONTACT บ
+REM บ THRUSTMASTER at 503-639-3200 TO INQUIRE ABOUT UPGRADING TO THE    บ
+REM บ NEW CHIP AND MICROCODE!!!!                                        บ
+REM บ                                                                   บ
+REM บ How can you tell if you have the new chip and microcode?  At the  บ
+REM บ C:\MARK2 Dos prompt type DIR MK2LOAD.EXE and hit enter.  If it    บ
+REM บ says "File not found then you have the old microcode version that บ
+REM บ uses DOWNLOAD.EXE instead.                                        บ
+REM ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ

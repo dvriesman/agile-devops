@@ -1,0 +1,46 @@
+3DI
+[DIRECTORY]
+abhouse.3dw 11 0
+abwegtst.3dw 11 38
+adv.3dw 11 2470
+basedoor.3dw 11 2508
+dummy.3dw 11 2546
+enemx001.3dw 11 4066
+enemx002.3dw 11 4446
+enemx003.3dw 11 5396
+enemx004.3dw 11 5814
+enemx005.3dw 11 8170
+enemx51a.3dw 11 10070
+enemx52a.3dw 11 11134
+enemx53a.3dw 11 12046
+enemx54a.3dw 11 13794
+enemx55a.3dw 11 14972
+enemx56a.3dw 11 16454
+enemy001.3dw 11 17898
+enemy002.3dw 11 18278
+enemy003.3dw 11 19114
+enemy004.3dw 11 19418
+enemy005.3dw 11 21356
+enemy51a.3dw 11 22876
+enemy52a.3dw 11 23750
+enemy53a.3dw 11 24434
+enemy54a.3dw 11 25764
+enemy55a.3dw 11 26676
+enemy56a.3dw 11 28044
+extras.3dw 11 29336
+hill.3dw 11 29792
+l1end.3dw 11 29982
+l1engh.3dw 11 32072
+newon2gh.3dw 11 32110
+newon2t.3dw 11 32148
+newon4t.3dw 11 35530
+noname.3dw 11 40318
+noname2.3dw 11 52934
+noreturn.3dw 11 61978
+noscape.3dw 11 62016
+rivercol.3dw 11 68932
+sky1.3dw 11 69844
+skybl.3dw 11 69882
+tankdoor.3dw 11 69920
+ENDDIR
+[END3DI]

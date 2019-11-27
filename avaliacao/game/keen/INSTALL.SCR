@@ -1,0 +1,149 @@
+// Install script for Extreme Assault
+// (c) 1997 Blue Byte Software GmbH
+
+// Set language
+SET_LANGUAGE 2
+
+// Load background image
+LOAD_BACKGROUND "install\install.lbm"
+
+// Go to setup if already installed, else go to install
+IF_EXISTS setup.ini
+	GOTO SetupMainMenu
+ELSE
+	GOTO InstallMainMenu
+ENDIF
+
+
+// Install main menu
+:InstallMainMenu
+
+MENU_START
+MENU_ENTRY "EXTREME ASSAULT Installation"
+MENU_ENTRY "Install EXTREME ASSAULT" InstallGame
+MENU_ENTRY "Quit program" ExitInstallFromInstall
+MENU_END
+
+
+// Install the game
+:InstallGame
+
+
+// Select a target drive
+SELECT_TARGET_DRIVE 35000 InstallMainMenu
+
+// Select target path
+SELECT_TARGET_PATH BLUEBYTE\EXTREME
+
+
+// Inform the user that installation has started
+PRINT "Preparing installation..."
+
+// Change to target directory
+CD_TARGET
+
+// Delete everything that may already be here
+DELETE *.*
+DELETE DRIVERS
+DELETE INSTALL
+DELETE DATA
+DELETE DATA.SFX
+DELETE SHOTS
+
+// Create directories
+MD DRIVERS
+MD INSTALL
+MD DATA
+MD RESTEST
+MD DATA.SFX
+MD SAVEGAME
+MD SHOTS
+
+// Change to source directory
+CD_SOURCE
+
+// Inform the user that installation has started
+PRINT "Installing EXTREME ASSAULT..."
+
+// Copy AIL drivers
+INSTALL DRIVERS\*.*       DRIVERS\*.*
+
+// Copy setup stuff
+INSTALL SETUP.EXE         SETUP.EXE
+INSTALL INSTALL.SCR       INSTALL.SCR
+INSTALL INSTALL.LBM       INSTALL.LBM
+INSTALL DOS4GW.EXE        DOS4GW.EXE
+INSTALL README.TXT        README.TXT
+INSTALL NEWS.TXT          NEWS.TXT
+INSTALL CHECKVGA.BAT      CHECKVGA.BAT
+INSTALL_DIRS INSTALL\*.*  INSTALL\*.*
+
+// Copy root stuff
+
+INSTALL_DIRS ROOT\*.*          *.*
+
+// Copy rest
+INSTALL_DIRS DATA\*.*     DATA\*.*
+INSTALL_DIRS DATA.SFX\*.* DATA.SFX\*.*
+INSTALL_DIRS RESTEST\*.* RESTEST\*.*
+INSTALL_DIRS SHOTS\*.* SHOTS\*.*
+
+CD_TARGET
+
+// Create and update setup file
+CREATE SETUP.INI
+UPDATE_INI
+
+// Inform the user that installation has been completed successfully
+INFO "EXTREME ASSAULT has been installed successfully"
+
+GOTO SetupMainMenu
+
+
+// Setup main menu
+:SetupMainMenu
+
+MENU_START
+MENU_ENTRY "EXTREME ASSAULT: Setup"
+MENU_ENTRY "Setup sound" SetupSound
+MENU_ENTRY "Graphics resolution" TestScreen
+MENU_ENTRY "Additional information" ReadDoc
+//MENU_ENTRY "Blue Byte News" NewsInfo
+MENU_ENTRY "Start EXTREME ASSAULT" StartGame
+MENU_ENTRY "Quit program" ExitInstallFromSetup
+MENU_END
+
+
+:SetupSound
+CD DRIVERS
+EXECUTE_OWN_SCREEN SETSOUND.EXE
+CD ..
+GOTO SetupMainMenu
+
+
+:ReadDoc
+TEXT README.TXT
+GOTO SetupMainMenu
+
+
+:NewsInfo
+TEXT NEWS.TXT
+GOTO SetupMainMenu
+
+
+:TestScreen
+EXECUTE_OWN_SCREEN Checkvga.bat
+GOTO SetupMainMenu
+
+:StartGame
+EXECUTE_OWN_SCREEN START.BAT
+END
+
+
+:ExitInstallFromSetup
+INFO "Have fun playing EXTREME ASSAULT!"
+END
+
+:ExitInstallFromInstall
+END
+

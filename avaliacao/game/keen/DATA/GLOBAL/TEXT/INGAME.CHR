@@ -1,0 +1,107 @@
+[0]{RETURN TO MISSION AREA!}
+[1]{- PRESS ANY KEY -}
+[2]{RESOLUTION NOT AVAILABLE}
+[3]{PAUSE}
+[4]{TERMINATE MISSION? (Y/N)}
+[5]{LOAD GAME? (Y/N)}
+[6]{MISSION SUCCESSFUL!}
+[7]{PRESS F12 FOR NEXT MISSION!}
+[8]{MISSION SUCCESSFUL!}
+[9]{NEXT OPERATION AREA REACHED}
+[10]{MISSION FAILED!}
+[11]{REPLAY MISSION? (Y/N)}
+[12]{RETURN TO MISSION AREA!}
+[13]{INCOMING MISSILE!}
+[14]{SHIELD ENERGY}
+[15]{EXTRA SHIELD}
+[16]{AMMUNITION FOR %s}
+[17]{%s %ld}
+
+[18]{FIRE FLASH}
+[19]{GUIDED MISSILE}
+[20]{INDESTRUCTIBLE}
+[21]{SMART BOMB}
+[22]{THUNDERBOLT}
+[23]{SCREENING DEVICE}
+[24]{MAGMA}
+[25]{PERSON ON BOARD}
+
+[26]{LOADING...}
+
+[27]{NO TARGET AVAILABLE}
+
+[28]{TARGET OUT OF RANGE}
+
+[29]{     ESC = Terminate mission}
+[30]{       p = Pause}
+[31]{ }
+[32]{      F1 = Help}
+[33]{      F2 = Options}
+[34]{      F4 = Quit program}
+[35]{ }
+[36]{      F5 = Toggle LowRes/HiRes}
+[37]{      F6 = Change viewing range}
+[38]{      F7 = Ground details}
+[39]{      F8 = Fog on/off}
+[40]{Shift+F8 = Transparent effects on/off}
+[41]{ }
+[42]{     F12 = Next Mission}
+[47]{ }
+[48]{ }
+
+[43]{ }
+[44]{ }
+
+[45]{QUIT PROGRAM? (Y/N)}
+[46]{QUIT GAME? (Y/N)}
+
+[50]{     ESC = Quit game}
+[51]{      F1 = Help }
+[52]{      F4 = Quit program}
+[53]{ }
+[54]{      F5 = Toggle LowRes/HiRes}
+[55]{      F6 = Change viewing range}
+[56]{      F7 = Ground details}
+[57]{      F8 = Fog on/off}
+[58]{Shift+F8 = Transparent effects on/off}
+[59]{ }
+[60]{      F9 = Message for everyone}
+[61]{Shift+F9 = Message for Team}
+[62]{  ALT+F9 = Message for opponent}
+[63]{     F10 = Review message}
+[64]{ }
+[65]{   ALT+1 = Send SOS}
+[66]{   ALT+2 = Retreat message}
+[67]{   ALT+3 = Report a kill}
+[68]{   ALT+4 = Threaten a certain opponent}
+[68]{   ALT+5 = Anger opponent}
+[70]{Fog: On}
+[71]{Fog: Off}
+[72]{Viewing range: Low}
+[73]{Viewing range: Medium}
+[74]{Viewing range: High}
+[75]{Ground objects: Low}
+[76]{Ground objects: Medium}
+[77]{Ground objects: High}
+[78]{Transparent effects: On}
+[79]{Transparent effects: Off}
+[80]{TIME: %02ld:%02ld}
+[81]{SCORE: %07ld}
+[82]{BONUS: %02ld:%02ld}
+
+[195]{You are now alone.}
+[199]{GAME OVER}
+
+!!! Attention! Do not forget to include spaces in the messages #220 - #223 !!!
+[220]{}
+[221]{ has shot you down.}
+[222]{you shot down }
+[223]{.}
+[224]{has left the game.}
+
+[240]{EVERYONE:}
+[241]{TEAM:}
+[242]{OPPONENT:}
+
+[243]{CANNOT SAVE GAME!}
+

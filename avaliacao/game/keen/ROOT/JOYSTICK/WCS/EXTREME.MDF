@@ -1,0 +1,28 @@
+rem ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+rem บ                                                                       บ
+rem บ Macro Definition File For:Extreme Assault by Blue Byte (C) 1997______ บ
+rem บ                                                                       บ
+rem บ                                                                       บ
+rem ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+
+~Weapons
+
+Thunderbolt = t
+Smartbomb = SPC
+Enemy2 = q
+
+
+~View
+
+IN/OUT = 0
+DropCamera = 5
+VirCockpit = 9
+Hud_ON/OFF = 3
+Pause = p
+RadZoom = r
+nextMission = F12
+Yes = y
+No = n
+Quit = ESC
+SetCamera = ,

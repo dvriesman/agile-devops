@@ -1,0 +1,42 @@
+REM                       FLCS PROGRAMMING TEMPLATE
+REM
+REM B50 FILENAME: Extreme_____  DESCRIPTION:FLCS Control for Extreme Assault
+REM ________________________________________________________________________
+REM
+REM WRITTEN BY: Peter Okorn______________________________  DATE: 05/08/97
+REM
+REM NAME OF GAME AND PUBLISHER: Extreme Assault by Blue Byte (C) 1997_______
+REM
+Mdef Extreme
+REM
+REM BUTTONS S1 THRU S4 (S1=INDEX FINGER, S2=THUMB, S3=PINKY, AND
+REM S4=PADDLE SWITCH ON FLCS).
+REM
+    BTN S1 /N SelectEnemy1
+    BTN S2 /N Rocket
+    BTN S3 /N ChangeWeapon
+    BTN S4 /N SelectEnemy2
+REM
+REM HAT SWITCHES H1 THRU H4.  EACH HAT SWITCH FUNCTIONS AS A 5-WAY SWITCH,
+REM THE POSITIONS CORRESPONDING TO THE 4 BASIC DIRECTIONS, AND THE MIDDLE
+REM POSITION.
+REM
+REM H1=LARGE HAT AT TOP OF FLCS
+    BTN H1U Forward
+    BTN H1D Backward
+    BTN H1L Left
+    BTN H1R Right
+REM
+REM H2=SMALL HAT BELOW BUTTON S2
+    BTN H2U Upward
+    BTN H2D Downward
+    BTN H2L View_In/Out
+    BTN H2R /N DropCamera
+REM
+REM H3=SECOND LARGER HAT BELOW H1
+    BTN H3U /N VirCockpit
+    BTN H3D /N Hud_ON/OFF
+REM
+REM H4=HAT ON LEFT SIDE OF FLCS
+    BTN H4L Slide_left
+    BTN H4R Slide_right
